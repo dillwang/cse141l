@@ -6,6 +6,7 @@ module PC #(parameter D=10)(
         clk,
         // reljump_en,             // rel. jump enable
         absjump_en,				// abs. jump enable
+        jmp_en,
   input       [D-1:0] target,	// how far/where to jump
   output logic[D-1:0] prog_ctr
 );
